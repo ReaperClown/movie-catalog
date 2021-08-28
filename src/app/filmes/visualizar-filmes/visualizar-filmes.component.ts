@@ -24,6 +24,7 @@ export class VisualizarFilmesComponent implements OnInit {
   ngOnInit() {
     this.id = this.activatedRoute.snapshot.params['id'];
     this.visualizar();
+    
   }
 
   editar(): void {
